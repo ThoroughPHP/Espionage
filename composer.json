@@ -1,0 +1,29 @@
+{
+    "name": "thorough-php/espionage",
+    "type": "library",
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2",
+        "phpstan/phpstan": "^0.11.12",
+        "php-coveralls/php-coveralls": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ThoroughPHP\\Espionage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ThoroughPHP\\Espionage\\Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sevavietl",
+            "email": "sevavietl@gmail.com"
+        }
+    ]
+}
